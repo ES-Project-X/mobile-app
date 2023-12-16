@@ -26,8 +26,8 @@ class ProfileDetails extends StatelessWidget {
   StatsXp getStatsXp(int totalXp) {
     const baseXp = 500;
 
-    final level = (totalXp / baseXp).floor();
-    final xpToNextLevel = baseXp * (level + 1);
+    final level = (totalXp / baseXp).floor() + 1;
+    final xpToNextLevel = baseXp * level;
     final xpForCurrentLevel = xpToNextLevel - totalXp;
     final progress = (baseXp - xpForCurrentLevel) / baseXp;
 
