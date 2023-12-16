@@ -15,7 +15,7 @@ We provide runnables to install the app on an Android device, which can be found
 
 - Run `flutter run` in root to run the project.
 
-## Building the application APKs
+## Building the application APK
 
-- Run `flutter build apk --split-per-abi` in root to build the APKs, that can be installed on an
+- Run `flutter build apk` in root to build the APK, that can be installed on an
 Android device.
